@@ -1,0 +1,19 @@
+// List Icons
+// -------------------------
+
+.#{$if-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $if-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$if-css-prefix}-li {
+  position: absolute;
+  left: -$if-li-width;
+  width: $if-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$if-css-prefix}-lg {
+    left: -$if-li-width + (4em / 14);
+  }
+}

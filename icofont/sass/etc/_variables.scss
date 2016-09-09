@@ -1,0 +1,19 @@
+//# fashion warn -elevation
+
+// Variables
+// --------------------------
+
+$if-font-path:        "../fonts" !default;
+$if-font-size-base:   14px !default;
+$if-line-height-base: 1 !default;
+$if-css-prefix:       if !default;
+$if-version:          "1.0.0" !default;
+$if-border-color:     #eee !default;
+$if-inverse:          #fff !default;
+$if-li-width:         (30em / 14) !default;
+
+$if-var-angry-monster: "\e901";
+$if-var-bathtub: "\e902";
+
+
+//# fashion warn +elevation
