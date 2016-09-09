@@ -18,3 +18,5 @@ $if-var-bathtub: "\e902";
 .#{$if-css-prefix}-angry-monster:before { content: $if-var-angry-monster !important; }
 .#{$if-css-prefix}-bathtub:before { content: $if-var-bathtub !important; }
 ```
+
+*Note: 'if' stands for 'IcoFont' and should not be confused with the conditional statement 'if'*
