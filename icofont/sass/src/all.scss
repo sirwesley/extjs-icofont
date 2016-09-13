@@ -15,10 +15,10 @@
 @import "../etc/_stacked.scss";
 @import "../etc/_icons.scss";
 
-// The "x-if" class should be used in Ext JS applications instead
-// of "if".  The "if" class sets some properties that may collide
-// with theme properties, whereas "x-if" sets only the font-family.
-.#{$prefix}if:before {
+// The "x-icofont" class should be used in Ext JS applications instead
+// of "icofont".  The "icofont" class sets some properties that may collide
+// with theme properties, whereas "x-icofont" sets only the font-family.
+.#{$prefix}icofont:before {
     font-family: "IcoFont" !important;
 }
 

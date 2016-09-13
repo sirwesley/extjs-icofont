@@ -4,14 +4,14 @@
 //# fashion -inline
 @font-face {
   font-family: 'IcoFont';
-  src: url('#{$if-font-path}/icofont.eot?v=#{$if-version}');
+  src: url('#{$icofont-font-path}/icofont.eot?v=#{$icofont-version}');
   //# fashion +inline:eot
   //# fashion +inline:ttf
-  src: url('#{$if-font-path}/icofont.eot?#iefix&v=#{$if-version}') format('embedded-opentype'),
-    url('#{$if-font-path}/icofont.woff?v=#{$if-version}') format('woff'),
-    url('#{$if-font-path}/icofont.ttf?v=#{$if-version}') format('truetype'),
-    url('#{$if-font-path}/icofont.svg?v=#{$if-version}#icofont') format('svg');
-//  src: url('#{$if-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  src: url('#{$icofont-font-path}/icofont.eot?#iefix&v=#{$icofont-version}') format('embedded-opentype'),
+    url('#{$icofont-font-path}/icofont.woff?v=#{$icofont-version}') format('woff'),
+    url('#{$icofont-font-path}/icofont.ttf?v=#{$icofont-version}') format('truetype'),
+    url('#{$icofont-font-path}/icofont.svg?v=#{$icofont-version}#icofont') format('svg');
+//  src: url('#{$icofont-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
   font-weight: normal;
   font-style: normal;
 }

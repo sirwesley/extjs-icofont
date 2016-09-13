@@ -1,20 +1,20 @@
 // Rotated & Flipped Icons
 // -------------------------
 
-.#{$if-css-prefix}-rotate-90  { @include fa-icon-rotate(90deg, 1);  }
-.#{$if-css-prefix}-rotate-180 { @include fa-icon-rotate(180deg, 2); }
-.#{$if-css-prefix}-rotate-270 { @include fa-icon-rotate(270deg, 3); }
+.#{$icofont-css-prefix}-rotate-90  { @include icofont-icon-rotate(90deg, 1);  }
+.#{$icofont-css-prefix}-rotate-180 { @include icofont-icon-rotate(180deg, 2); }
+.#{$icofont-css-prefix}-rotate-270 { @include icofont-icon-rotate(270deg, 3); }
 
-.#{$if-css-prefix}-flip-horizontal { @include fa-icon-flip(-1, 1, 0); }
-.#{$if-css-prefix}-flip-vertical   { @include fa-icon-flip(1, -1, 2); }
+.#{$icofont-css-prefix}-flip-horizontal { @include icofont-icon-flip(-1, 1, 0); }
+.#{$icofont-css-prefix}-flip-vertical   { @include icofont-icon-flip(1, -1, 2); }
 
 // Hook for IE8-9
 // -------------------------
 
-:root .#{$if-css-prefix}-rotate-90,
-:root .#{$if-css-prefix}-rotate-180,
-:root .#{$if-css-prefix}-rotate-270,
-:root .#{$if-css-prefix}-flip-horizontal,
-:root .#{$if-css-prefix}-flip-vertical {
+:root .#{$icofont-css-prefix}-rotate-90,
+:root .#{$icofont-css-prefix}-rotate-180,
+:root .#{$icofont-css-prefix}-rotate-270,
+:root .#{$icofont-css-prefix}-flip-horizontal,
+:root .#{$icofont-css-prefix}-flip-vertical {
   filter: none;
 }

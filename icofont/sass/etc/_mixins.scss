@@ -1,9 +1,9 @@
 // Mixins
 // --------------------------
 
-@mixin if-icon() {
+@mixin icofont-icon() {
   display: inline-block;
-  font: normal normal normal #{$if-font-size-base}/#{$if-line-height-base} IcoFont; // shortening font declaration
+  font: normal normal normal #{$icofont-font-size-base}/#{$icofont-line-height-base} IcoFont; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
   text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
@@ -11,14 +11,14 @@
 
 }
 
-@mixin if-icon-rotate($degrees, $rotation) {
+@mixin icofont-icon-rotate($degrees, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   -webkit-transform: rotate($degrees);
       -ms-transform: rotate($degrees);
           transform: rotate($degrees);
 }
 
-@mixin if-icon-flip($horiz, $vert, $rotation) {
+@mixin icofont-icon-flip($horiz, $vert, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   -webkit-transform: scale($horiz, $vert);
       -ms-transform: scale($horiz, $vert);
