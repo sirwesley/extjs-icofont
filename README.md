@@ -20,13 +20,13 @@ Example:
     ],
 ```
 
-### Example *sass\etc\_variables.scss*
+### Example *sass\etc\\_variables.scss*
 ```css
 $icofont-var-angry-monster: "\e901";
 $icofont-var-bathtub: "\e902";
 ```
 
-### Example *sass\etc\_icons.scss*
+### Example *sass\etc\\_icons.scss*
 ```css
 .#{$icofont-css-prefix}-angry-monster:before { content: $icofont-var-angry-monster !important; }
 .#{$icofont-css-prefix}-bathtub:before { content: $icofont-var-bathtub !important; }
